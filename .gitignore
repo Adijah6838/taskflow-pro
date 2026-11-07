@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment Variables (NEVER COMMIT THESE)
+.env
+.env.local
+
+# Database files
+*.db
+*.db-journal
+*.sqlite
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/

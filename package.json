@@ -1,0 +1,22 @@
+{
+  "name": "taskflow-pro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Enterprise Project and Team Management System",
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm start"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "autoprefixer": "^10.6.2",
+    "axios": "^1.21.0",
+    "postcss": "^8.5.32",
+    "react-router-dom": "^7.18.5",
+    "recharts": "^3.10.1",
+    "tailwindcss": "^4.3.4"
+  }
+}
